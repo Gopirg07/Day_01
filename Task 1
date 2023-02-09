@@ -1,0 +1,20 @@
+1)HTTP 1.1:-
+i)It works on the textual format.	                              
+ii)There is a head of the line blocking that blocks all the requests behind it until it doesn’t get its all resources. 
+iii)It uses the requests resource Inlining for use getting multiple pages	 
+iv)It compresses the data by itself.	                                    
+v)In HTTP 1 the actual data will communicate in a different way, it also has various other benefits like request prioritisation or multiplexing.
+
+HTTP 2:-
+i)IN HTTP 2 the works will be done by the binary protocol.
+ii)It allows multiplexing so one TCP connection is required for multiplerequests.
+iii)The uses PUSH frame by server that collects all multiple pages 
+iv)HTTP 2 uses HPACK for data compression.
+v)In HTTP 2 a server can push resources to the client even without the client requesting them, just because it knows that the client will end up needing them.
+
+
+
+2)Objects and its internal representation in Javascript:-
+Objects are more complex and each object may contain any combination of primitive data-types as well as reference data-types. 
+A JavaScript object has the internal properties associated with it. A property of an object can be explained as a variable.
+Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects.
